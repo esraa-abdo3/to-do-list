@@ -1,0 +1,99 @@
+
+ .conta{
+    padding: 10px 60px;
+    margin:  0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+ }
+ @media(max-width:767px){
+    .conta{
+        justify-content: space-between;
+        gap: 10px;
+    }
+   
+ }
+
+.logo{
+    font-size: 30px;
+    color:  #0d647c;
+    text-transform:  capitalize;
+    font-weight: bold;
+}
+@media(max-width:767px){
+    .logo{
+        font-size: 17px;
+    }
+}
+.log {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #0d647c;
+    color: white;
+    border: 1px solid #0d647c;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.logg{
+    color: white;
+}
+.logg:hover{
+
+    color: black 
+  
+}
+.log:hover{
+    /* background-color: white; */
+    color: #009cff;
+   
+}
+@media(max-width:767px){
+    .log {
+        padding: 5px 10px;
+    }
+}
+.inside-div{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.landing {
+position: relative;
+height: 100vh;
+}
+.landing .text{
+    max-width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-40%);
+    text-align: center;
+}
+
+.landing h1{
+     
+    font-size: 60px;
+    text-align: center;
+}
+.landing p{
+    color: #777;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+.landing button{
+    width: 200px;
+    font-size: 23px;
+    padding: 10px 30px;
+    background-color:#0d647c ;
+    color: white;
+    border: 1px solid #0d647c;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.landing button:hover{
+    background-color: white;
+    color: #0d647c;
+    transform: scale(1.1);
+}
